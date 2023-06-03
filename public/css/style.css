@@ -1,0 +1,485 @@
+.top-bar-t {
+  background-color: #cb2a27;
+  height: 30px;
+  width: 100%;
+}
+
+.container-iconfb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.follow-us-icon {
+  display: flex;
+  align-items: center;
+}
+
+.follow-us-icon span {
+color: white;
+  margin-right: 10px;
+}
+.follow-us-icon a {
+font-size: 11px;
+}
+
+.follow-us-icon a {
+  color: white;
+  margin-right: 5px;
+}
+
+.contact-info {
+  display: flex;
+}
+
+.email,
+.phone {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.email i,
+.phone i {
+  color: white;
+  margin-right: 5px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    margin-right: 30px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  ul li:last-child {
+    margin-right: 0;
+  }
+  
+  ul li a {
+    color: black;
+    text-decoration: none;
+    
+  }
+  
+  ul li a:hover {
+    color: #cb2a27;
+  }
+  
+  .donate {
+    background-color: #cb2a27;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .donate a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .donate:hover {
+    background-color: black;
+  }
+  /* Content*/
+  .banner {
+    background-image: url(https://htmldemo.net/chariv/chariv/assets/images/slider-image/slide-three.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+  }
+  h1 {
+    color: #fff;
+    font-size: 50px;
+  }
+  
+  p {
+    color: #fff;
+    font-size: 20px;
+    max-width: 70%;
+    margin-top: 20px;
+  }
+  .donate-box {
+    background-color: #cb2a27;
+    padding: 10px 20px;
+    width: 180px;
+    border-radius: 5px;
+  }
+  .donate-box a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .donate-btn {
+    color: #f00;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .donate-box:hover {
+    background-color: #fff;
+  }
+  
+  .donate-box:hover a {
+    color: #000;
+  }
+  .container {
+    max-width: 700px;
+    margin-top: -200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .our-causes {
+    font-size: 180%;
+    color: black;
+    text-align: center;
+    margin-bottom: 1px; 
+  }
+  
+  .red-text {
+    color: red;
+  }
+  
+  .divider {
+    border: 30px;
+    border-top: 3px solid ;
+    color: #f00;
+    width: 50px;
+    margin-bottom: 2%;
+  }
+  
+  .description {
+    font-size: 100%;
+    color: black;
+    text-align: center;
+    margin-top: 0.1em;
+  }
+  .container-2 {
+    max-width: 800px;
+    margin: -150px auto;
+  }
+  
+  .gallery {
+    display: flex;
+  }
+  
+  .item {
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .item:last-child {
+    margin-right: 0;
+  }
+  
+  .item img {
+    max-width: 100%;
+  }
+  
+  .item-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 80px;
+    font-size: 1.2em;
+    color: black;
+  }
+  
+  .item-description {
+    width: 100%; 
+    text-align: left;
+    font-size: 0.9em;
+    color: rgb(17, 16, 16);
+    margin-top: 5px;
+  }
+  .donation-amount {
+    color: #000;
+    margin-right: 50px;
+  }
+  
+  .donate-btn { 
+    margin-top: -5px;
+    color: #000;
+    font-size: 0.3;
+  }
+  
+  .donate-btn:hover {
+    color: red;
+  }
+  .container-3{
+    margin-top: 300px;
+  }
+  .container-3 h4 {
+    text-align: left;
+    padding-left:40px ;
+    font-size: 1.3em;
+    color: black;
+  }
+  .container-3 p {
+    text-align: left;
+    padding-left:40px ;
+    font-size: 0.9em;
+    color: black;
+  }
+  .container-3 .icon {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-3 .icon img {
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+  }
+  .container-3 .donator {
+    margin-left: 50px;
+  }
+  .container-3 .donator h5 {
+    color: black;
+    text-align: left;
+    padding-left:5px ;
+  }
+  .container-3 .donator p {
+    color: black;
+    text-align: left;
+    padding-left: 5px ;
+  }
+  .divider-3  {
+    border: 30px;
+    border-top: 3px solid ;
+    color: #f00;
+    width: 50px;
+    margin: 40px;
+    margin-top: 10px;
+  }
+  
+  .gray-background {
+    background-color: #f2f2f2;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .image-1 {
+    width: 50%;
+    float: right;
+    height: 100vh;
+  }
+  .images-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image-2 {
+    width: calc(25% - 2px);
+    margin: 1px;
+    overflow: hidden;
+  }
+  .image-2 img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  .image-2:hover  img {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+ 
+  .images-3 {
+    display: flex;
+    justify-content: center;
+  }
+  .image-3 {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .image-3 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+  }
+  .image-3:hover img {
+    transform: scale(1.1);
+  }
+  .image-3 h5 {
+    position: absolute;
+    bottom: 50px;
+    right: -10px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  .image-3 p {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    color: white;
+    font-size: 20px;
+  }
+  .images-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image-4 {
+    width: calc(33.33% - 2px);
+    margin: 1px;
+    overflow: hidden;
+  }
+  .image-4 img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  .image-4:hover img {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+  .thiet{
+      background-image: url(https://htmldemo.net/chariv/chariv/assets/images/testimonial-image/testi-bg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .container-5 {
+    text-align: center;
+  }
+  .container-5 h2 {
+    color: #f2f2f2;
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  .container-5 hr {
+    color: #f2f2f2;
+    width: 6%;
+    margin: 20px auto;
+  }
+  .container-5 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  .container-5 p {
+    font-size: 20px;
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container-6 {
+    display: flex;
+    justify-content: center;
+  }
+  .background-6 {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid rgb(202, 198, 198);
+    text-align: left;
+  }
+  .background-6 img {
+    width: 100%;
+    height: auto;
+  }
+  .thiet1{
+    margin-left: 20px;
+    transition: color 0.5s;
+  }
+  .thiet1:hover{
+    color: red;
+  }
+  .thiet2{
+    margin-left: 20px;
+    transition: color 0.5s;
+  }
+  .thiet2:hover{
+    color: red;
+  }
+  .background-6 p {
+    font-size: 12px;
+    color: #000;
+    margin-left: 20px;
+  }
+  /* footer */
+  footer {
+    background-color: #222;
+    color: white;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .footer-section {
+    width: calc(30% - 100px);
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .footer-section p{
+    font-size: 14px;
+  }
+  .footer-section a{
+    font-size: 14px;
+  }
+  
+  .footer-section a:hover {
+    color: red;
+    margin-left: 5px;
+  }
+  
+  .email {
+    border: none;
+    border-bottom: solid red;
+    background-color: transparent;
+  }
+  
+
+  
+
+  
+  
